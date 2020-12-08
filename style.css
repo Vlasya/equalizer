@@ -1,0 +1,37 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+.wrapper{
+	display: flex;
+	justify-content: space-between;
+	width: 80%;
+	margin: 50px auto;
+}
+.block{
+	height: 300px;
+	background-color:;
+	position: relative;
+	
+}
+.colorBlock{
+	position: absolute;
+	background-color:orange;
+	height: 50%;
+	width: 100%;
+	bottom: 0px;
+	transition-property: height;
+  transition-duration: 1s;
+}
+#input{
+	width: 80%;
+	margin: auto;
+}
+.row{
+	margin-right: 5px;
+	display: flex;
+	flex-direction: column;
+	
+}
